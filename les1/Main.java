@@ -1,3 +1,5 @@
+package lessons.les1;
+
 /**
  * Created by java on 26.12.2017.
  */

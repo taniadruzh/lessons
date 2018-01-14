@@ -1,3 +1,5 @@
+package lessons.les4;
+
 public class Dog {
     int colPaws;
     boolean hungry;

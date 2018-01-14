@@ -1,3 +1,5 @@
+package lessons.les2;
+
 import java.util.Scanner;
 
 /**

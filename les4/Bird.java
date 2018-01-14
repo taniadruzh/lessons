@@ -1,3 +1,4 @@
+package lessons.les4;
 
 public class Bird {
     String name;
