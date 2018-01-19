@@ -1,4 +1,4 @@
-package sport_goods;
+package les7.magazPac.sport_goods;
 
 /**
  * Created by java on 19.01.2018.
@@ -7,6 +7,7 @@ public class Boots {
     private String brend;
     private int size;
     private int prise;
+    private int count;
 
     public Boots() {
     }
@@ -24,6 +25,13 @@ public class Boots {
         this.brend = brend;
         this.prise = prise;
         this.size = size;
+    }
+
+    public Boots(String brend, int size, int prise, int count) {
+        this.brend = brend;
+        this.size = size;
+        this.prise = prise;
+        this.count = count;
     }
 
     public String getBrend() {
@@ -48,5 +56,13 @@ public class Boots {
 
     public void setPrise(int prise) {
         this.prise = prise;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 }
