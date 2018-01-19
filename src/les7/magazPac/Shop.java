@@ -10,4 +10,19 @@ public class Shop {
     private Boots boots;
     private Dress dress;
 
+    public Boots getBoots() {
+        return boots;
+    }
+
+    public void setBoots(Boots boots) {
+        this.boots = boots;
+    }
+
+    public Dress getDress() {
+        return dress;
+    }
+
+    public void setDress(Dress dress) {
+        this.dress = dress;
+    }
 }
