@@ -12,9 +12,14 @@ public class MagazRunner {
         Boots boots = new Boots("Nike",37,1500,10);
         Dress dress = new Dress("Columbia",42,1500,15);
 
-        shop.setBoots(boots);
-        shop.setDress(dress);
+        addGoodsToTheShop(shop, boots, dress);
 
         System.out.println(shop.getBoots().getPrise());
+        System.out.println(boots.getPrise());
+    }
+
+    private static void addGoodsToTheShop(Shop shop, Boots boots, Dress dress) {
+        shop.setBoots(boots);
+        shop.setDress(dress);
     }
 }
